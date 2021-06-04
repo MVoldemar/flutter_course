@@ -77,10 +77,10 @@ class _MyHomePageState extends State<MyHomePage> {
                   _startWaitingTimer();
                   buttonColor = 0xFFE0982D;
                   break;
-                case GameState.waiting:
-                  gameState = GameState.canBeStopped;
+                 case GameState.waiting:
+                //   gameState = GameState.canBeStopped;
 
-                  break;
+                   break;
                 case GameState.canBeStopped:
                   gameState = GameState.readyToStart;
                   stoppableTimer?.cancel();
